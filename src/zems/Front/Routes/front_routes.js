@@ -1,11 +1,11 @@
 export const front_routes = [
   {
     path: '/',
-    name: 'Home',
+    component: () => import('@/zems/Front/Layout/FrontLayout.vue'),
     children: [
       {
         path: '',
-        name: 'Home',
+        name: 'home',
         component: () => import('@/zems/Front/Pages/HomePage.vue'),
       },
     ],
