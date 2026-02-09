@@ -9,12 +9,37 @@ html {
   scroll-behavior: smooth;
 }
 :root {
+  /* --- Lumina Design System (Warm Minimalism) --- */
+  --bg-cream: #f5f5f0;
+  --bg-white: #ffffff;
+  --text-primary: #2a2a2a;
+  --text-muted: #666666;
+  --accent-gold: #d4af37;
+  --border-subtle: rgba(42, 42, 42, 0.1);
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-logo: 'Cinzel', serif;
+  --font-body: 'Lato', sans-serif;
+
+  /* Spacing */
+  --spacing-sm: 20px;
+  --spacing-md: 40px;
+  --spacing-lg: 80px;
+  --spacing-xl: 120px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --transition-fast: 0.3s var(--ease-out);
+  --transition-slow: 0.8s var(--ease-out);
+
+  /* Existing Variables (Preserved) */
   --body-font: 'Cabin', sans-serif;
   --heading-font: 'Quicksand', serif;
 
   --primary-color: #13443c;
   --secondary-color: #1abc9c;
-  --accent-color: #CBA135;
+  --accent-color: #cba135;
   --white-color: #ffffff;
   --dark-color: #000000;
   --light-color: #6c757d;
