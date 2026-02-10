@@ -6,8 +6,7 @@ import StorySection from '@/zems/Front/Components/Section/StorySection.vue'
 <template>
   <div class="about-page">
     <PageHero
-      title="Our"
-      italicTitle="Journey"
+      title="Our Journey"
       bgImage="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=2000"
     />
 

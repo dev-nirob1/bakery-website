@@ -18,6 +18,11 @@ export const front_routes = [
         name: 'about',
         component: () => import('@/zems/Front/Pages/AboutPage.vue'),
       },
+      {
+        path: 'contact',
+        name: 'contact',
+        component: () => import('@/zems/Front/Pages/ContactPage.vue'),
+      },
     ],
   },
 ]

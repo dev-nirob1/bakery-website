@@ -6,8 +6,7 @@ import MenuGridSection from '@/zems/Front/Components/Section/MenuGridSection.vue
 <template>
   <div class="menu-page">
     <PageHero
-      title="Seasonal"
-      italicTitle="Offerings"
+      title="Seasonal Offerings"
       bgImage="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80&w=2000"
     />
 

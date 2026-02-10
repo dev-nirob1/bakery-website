@@ -56,7 +56,6 @@ defineProps({
   flex-shrink: 0;
   width: 100px;
   height: 100px;
-  border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }

@@ -6,10 +6,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  italicTitle: {
-    type: String,
-    default: '',
-  },
   bgImage: {
     type: String,
     default:
@@ -41,10 +37,7 @@ const contentOpacity = computed(() => 1 - scrollY.value / 500)
       <img :src="bgImage" :alt="title" class="hero-bg-img" id="hero-img" />
     </div>
     <div class="hero-content">
-      <h1 class="hero-title">
-        {{ title }} <br />
-        <em v-if="italicTitle">{{ italicTitle }}</em>
-      </h1>
+      <h1 class="hero-title">{{ title }}</h1>
     </div>
   </header>
 </template>
@@ -115,11 +108,6 @@ const contentOpacity = computed(() => 1 - scrollY.value / 500)
   color: #ffffff;
   line-height: 1.1;
   font-weight: 400;
-}
-
-.hero-title em {
-  font-style: italic;
-  font-family: var(--font-heading);
 }
 
 @media (max-width: 768px) {

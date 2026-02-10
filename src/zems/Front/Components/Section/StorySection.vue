@@ -105,12 +105,10 @@
 .image-reveal {
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
 }
 
 .story-visual img {
   width: 100%;
-  border-radius: 4px;
   box-shadow: 20px 20px 0 rgba(212, 175, 55, 0.1);
   display: block;
   transition: transform 0.8s var(--ease-out);
