@@ -1,8 +1,10 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import OrderModal from '@/components/Widget/OrderModal.vue'
 
 const isScrolled = ref(false)
 const isMobileActive = ref(false)
+const isOrderModalOpen = ref(false)
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 50
@@ -36,12 +38,24 @@ onUnmounted(() => {
       <li><router-link to="/about" @click="isMobileActive = false">Our Story</router-link></li>
       <li><router-link to="/menu" @click="isMobileActive = false">The Menu</router-link></li>
       <li><router-link to="/contact" @click="isMobileActive = false">Visit</router-link></li>
-      <a href="#order" class="mobile-order-btn btn-outline" @click="isMobileActive = false"
+      <a
+        href="#order"
+        class="mobile-order-btn btn-outline"
+        @click.prevent="
+          () => {
+            isMobileActive = false
+            isOrderModalOpen = true
+          }
+        "
         >Order Online</a
       >
     </ul>
 
-    <a href="#order" class="btn-outline desktop-only">Order Online</a>
+    <a href="#order" class="btn-outline desktop-only" @click.prevent="isOrderModalOpen = true"
+      >Order Online</a
+    >
+
+    <OrderModal :is-open="isOrderModalOpen" @close="isOrderModalOpen = false" />
   </nav>
 </template>
 
