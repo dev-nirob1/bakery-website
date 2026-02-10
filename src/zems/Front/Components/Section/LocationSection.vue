@@ -73,7 +73,7 @@
   font-size: 3.5rem;
   line-height: 1.1;
   color: var(--text-primary);
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .section-title .subtitle {
@@ -87,7 +87,7 @@
 }
 
 .address-block {
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
 }
 
 .address-text {
