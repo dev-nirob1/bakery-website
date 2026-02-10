@@ -33,7 +33,7 @@ onUnmounted(() => {
 
     <ul class="nav-links">
       <li><router-link to="/" @click="isMobileActive = false">Home</router-link></li>
-      <li><router-link to="/story" @click="isMobileActive = false">Our Story</router-link></li>
+      <li><router-link to="/about" @click="isMobileActive = false">Our Story</router-link></li>
       <li><router-link to="/menu" @click="isMobileActive = false">The Menu</router-link></li>
       <li><router-link to="/visit" @click="isMobileActive = false">Visit</router-link></li>
       <a href="#order" class="mobile-order-btn btn-outline" @click="isMobileActive = false"
