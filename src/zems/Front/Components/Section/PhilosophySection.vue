@@ -15,7 +15,7 @@
       </div>
       <div class="image-reveal">
         <img
-          src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000"
+          src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&q=80&w=1000"
           alt="Baker kneading dough"
         />
       </div>

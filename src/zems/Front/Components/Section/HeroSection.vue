@@ -19,7 +19,7 @@ onUnmounted(() => {
   <section class="hero-wrapper">
     <div class="hero-bg-container">
       <img
-        src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=2000"
+        src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80&w=2000"
         alt="Rustic Bakery Table"
         class="hero-bg-img"
         id="hero-img"
