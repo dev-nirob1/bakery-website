@@ -56,7 +56,7 @@
         <div class="story-visual">
           <div class="image-reveal">
             <img
-              src="https://images.unsplash.com/photo-1586549042247-a4dc7d9673b5?auto=format&fit=crop&q=80&w=800"
+              src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&q=80&w=800"
               alt="Wood Fired Oven"
             />
           </div>
@@ -105,10 +105,15 @@
 .image-reveal {
   position: relative;
   overflow: hidden;
+  max-height: 500px;
+  width: 100%;
 }
 
 .story-visual img {
   width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
   box-shadow: 20px 20px 0 rgba(212, 175, 55, 0.1);
   display: block;
   transition: transform 0.8s var(--ease-out);

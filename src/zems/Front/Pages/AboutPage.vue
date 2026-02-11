@@ -7,7 +7,7 @@ import StorySection from '@/zems/Front/Components/Section/StorySection.vue'
   <div class="about-page">
     <PageHero
       title="Our Journey"
-      bgImage="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=2000"
+      bgImage="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=2000"
     />
 
     <main>

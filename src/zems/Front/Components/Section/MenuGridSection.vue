@@ -7,28 +7,28 @@ const viennoiserieItems = [
     price: '$4.50',
     description: 'AOP Butter, 27 layers, honeycomb crumb.',
     image:
-      'https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=300',
   },
   {
     title: 'Pain au Chocolat',
     price: '$5.25',
     description: 'Valrhona 55% dark chocolate batons.',
     image:
-      'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&q=80&w=300',
   },
   {
     title: 'Kouign-Amann',
     price: '$5.50',
     description: 'Breton caramelized butter cake.',
     image:
-      'https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=300',
   },
   {
     title: 'Almond Bostock',
     price: '$6.00',
     description: 'Brioche, frangipane, toasted almonds.',
     image:
-      'https://images.unsplash.com/photo-1619681342686-218a599607eb?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1612182062631-c65b3fc0c787?auto=format&fit=crop&q=80&w=300',
   },
 ]
 
@@ -45,21 +45,21 @@ const sourdoughItems = [
     price: '$10.00',
     description: 'Caraway, flax, sunflower seeds.',
     image:
-      'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&q=80&w=300',
   },
   {
     title: 'Olive & Rosemary',
     price: '$11.00',
     description: 'Kalamata olives, fresh rosemary.',
     image:
-      'https://images.unsplash.com/photo-1575234563462-23c3b01625f4?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&q=80&w=300',
   },
   {
     title: 'Walnut Cranberry',
     price: '$12.00',
     description: 'Toasted walnuts, dried cranberries.',
     image:
-      'https://images.unsplash.com/photo-1598373182133-52452f7691f6?auto=format&fit=crop&q=80&w=300',
+      'https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&q=80&w=300',
   },
 ]
 </script>

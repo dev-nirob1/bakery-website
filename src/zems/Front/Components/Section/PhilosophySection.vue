@@ -15,8 +15,8 @@
       </div>
       <div class="image-reveal">
         <img
-          src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&q=80&w=1000"
-          alt="Baker kneading dough"
+          src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&q=80&w=1000"
+          alt="Artisan bread baking"
         />
       </div>
     </div>
@@ -85,13 +85,15 @@
 .image-reveal {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
   border-radius: 4px; /* Subtle rounding for a premium feel */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
 .image-reveal img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   transition: transform 0.8s var(--ease-out);
 }
