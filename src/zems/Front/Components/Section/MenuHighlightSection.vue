@@ -13,7 +13,7 @@ const menuItems = [
     title: 'Classic Croissant',
     price: '$4.50',
     image:
-      'https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&q=80&w=800',
+      'https://images.pexels.com/photos/9313170/pexels-photo-9313170.jpeg?_gl=1*1306k1y*_ga*OTAzOTgwMTguMTczNzAwNTI1OA..*_ga_8JE65Q40S6*czE3NzEwMDA1NzckbzQ3JGcxJHQxNzcxMDAwNTk5JGozOCRsMCRoMA..',
     alt: 'Butter Croissant',
   },
   {
@@ -21,7 +21,7 @@ const menuItems = [
     title: 'Country Sourdough',
     price: '$9.00',
     image:
-      'https://images.unsplash.com/photo-1585478259506-8d1f7370f569?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1681218079567-35aef7c8e7e4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     alt: 'Sourdough Loaf',
   },
   {
@@ -33,6 +33,14 @@ const menuItems = [
     alt: 'Fruit Danish',
   },
   {
+    id: 5,
+    title: 'Classic Croissant',
+    price: '$4.50',
+    image:
+      'https://images.pexels.com/photos/9313170/pexels-photo-9313170.jpeg?_gl=1*1306k1y*_ga*OTAzOTgwMTguMTczNzAwNTI1OA..*_ga_8JE65Q40S6*czE3NzEwMDA1NzckbzQ3JGcxJHQxNzcxMDAwNTk5JGozOCRsMCRoMA..',
+    alt: 'Butter Croissant',
+  },
+  {
     id: 4,
     title: 'French Baguette',
     price: '$3.75',
@@ -41,19 +49,11 @@ const menuItems = [
     alt: 'Baguette',
   },
   {
-    id: 5,
-    title: 'Classic Croissant',
-    price: '$4.50',
-    image:
-      'https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&q=80&w=800',
-    alt: 'Butter Croissant',
-  },
-  {
     id: 6,
     title: 'Country Sourdough',
     price: '$9.00',
     image:
-      'https://images.unsplash.com/photo-1585478259506-8d1f7370f569?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1756244389018-ebf8169a0ed3?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     alt: 'Sourdough Loaf',
   },
   {
